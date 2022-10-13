@@ -1,0 +1,552 @@
+* {
+
+    margin: 0;
+  
+    padding: 0;
+  
+    box-sizing: border-box;
+  
+   }
+  
+  .row {
+  
+    max-width: 1140px;
+  
+    margin: 0 auto;
+  
+   }
+
+   html {
+    background-color: #fff;
+    color:#333;
+    font-family: "Lato",Arial,sans-serif;
+    font-weight: 300px;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+   }
+  
+  .main-nav {  
+  
+    float: right;
+  
+    list-style: none;
+  
+    margin-top: 40px;
+  
+  }
+  
+  .main-nav li{
+  
+    display: inline-block;
+  
+    margin-left: 30px;
+  
+  }
+  
+  .main-nav li a{
+  
+    text-decoration: none;
+  letter-spacing: 1px;
+    color: red;
+
+  
+  }
+  header{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(css/img/hero.jpg );
+    background-size:cover;
+    height: 100vh;
+    background-position: center;
+
+  }
+
+  .logo{
+    width: 150px;
+    height:auto;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+
+
+  }
+.hero-text-box{
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+h1{
+  color: #fff;
+  font-size: 240%;
+  letter-spacing: 4px;
+  word-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.btn{
+  text-decoration: none;
+  font-weight: 300;
+  padding: 10px;30px;
+  border-radius:200px
+}
+
+.btn-bappa{
+  colour:#fff;
+  background-color: #ff0000;
+  margin-right: 20px;
+  font: #fff;
+  color: #fff;
+
+}
+
+.btn-bhoot{
+  colour:#ff0000;
+  border: 1px solid #ca0505;
+  color:#ff0000;
+}
+
+.btn-bhoot:hover{
+  background-color: #e41919;
+  color: #fff;
+}
+
+section{
+  padding: 85px 0; /*top-bottom,right-left*/
+}
+
+h2{
+  font-size: 185%;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+
+}
+.get-text{
+  line-height: 145%;
+  width: 70%;
+  margin: 0 15%;
+  font-weight: 300;
+}
+
+ion-icon{
+  color:#ff0000;
+  font-size: 330%;
+  margin:auto
+
+}
+
+h3{
+  font-size: 110%;
+  font-weight: 400;
+  margin-bottom: 10px;
+  
+  
+}
+.all p{
+  font-size: 90%;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: justify;
+  font-style: italic;
+}
+/* section meals */
+.section-meals{
+  padding: 0%;
+}
+.food-img{
+  width: 100%;
+}
+
+.food-img li{
+  width: 25%;
+  float: left;
+}
+
+.menu{
+  width: 100%;
+  overflow: hidden;
+  background-color: #000000;
+
+}
+
+.menu img{
+  width: 100%;
+  height: auto;
+  transform: scale(1.15);
+  opacity: 0.7;
+  transition: transform 0.63s,opacity 0.63s;
+
+}
+
+.menu img:hover{
+  opacity: 1;
+  transform: scale(1.05);
+}
+/* How it Works - Section*/
+
+.Section-steps{
+  background-color: #f5e6e6;
+}
+
+.stepbox:first-child{
+  text-align: right;
+ padding-right: 4%;
+}
+.stepbox:last-child{
+  padding-left: 4%;
+  margin-top: 70px;
+}
+.app-screen{
+  width: 40%;
+}
+.works-steps{
+  margin-bottom: 50px;
+}
+
+.works-steps div{
+  display: inline-block;
+  float: left;
+  padding: 10px;
+  border-radius: 50%;
+  color: #ca0505;
+  border: #ff0000 2px solid;
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  text-align: center;
+  margin-right: 25px;
+}
+.works-steps p{
+  letter-spacing: 1px;
+  font-weight: 400;
+line-height: 145%;
+}
+
+.clearfix{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*-----------------section-cities------------------------*/
+
+.box img{
+  width:100% ;
+  height: auto;
+  margin-bottom: 15px;
+}
+.city-feature ion-icon{
+  font-size: 120%;
+  vertical-align: middle;
+  margin-top: 2px;
+}
+
+.city-feature:last-child ion-icon{
+  color: rgb(116, 116, 201);
+}
+
+.city-feature a:link,
+.city-feature a:visited{
+  color:rgb(65, 65, 142) ;
+}
+.city-feature a:hover{
+  color: purple;
+  
+}
+/*-----------------------------------------Customer Testimonials----------------------------------------------*/
+
+cite{
+  font-size: 90%;
+  display: block;
+  margin-top: 25px;
+}
+cite img{
+height: 45px;
+border-radius: 50%;
+margin-right: 10px;
+vertical-align: middle;
+}
+
+blockquote{
+  padding: 2%;
+  font-style: italic;
+  line-height: 145%;
+  margin-top: 40px;
+  position: relative;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.customer-testimonials h2{
+  color: #f5e6e6 ;
+}
+
+blockquote:before{
+  content: "\201C";
+  font-size: 500%;
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+
+.customer-testimonials{
+  background-image: linear-gradient(rgba(0,0,0,1.2),rgba(0,0,0,0.8)), url(img/back-customers.jpg);
+}
+
+/*---------------------------meal plans-----------------------------------*/
+
+.meals-plan {
+
+  background-color: #dfe6e9;
+ 
+ }
+ 
+ .plan-box{
+ 
+  background-color: #fff;
+ 
+  width: 90%;
+ 
+  margin-left: 5%;
+ 
+ }
+ 
+ .plan-box div{
+ 
+  padding: 15px;
+ 
+  border-bottom: 1px solid #dfe6e9;
+ 
+  margin-bottom: 10px;
+ 
+ }
+ 
+ .subs-price{
+ 
+  font-size: 280%;
+ 
+  color: #0984e3;
+ 
+  margin-bottom: 10px;
+ 
+  font-weight: 300;
+ 
+ }
+ 
+ .subs-price span{
+ 
+  font-size: 30%;
+ 
+ }
+ 
+ .subs-price-meal{
+ 
+  font-size: 80%;
+ 
+  font-weight: 300;
+ 
+ }
+ 
+ .plan-box ul{
+ 
+  list-style: none;
+ 
+ }
+ 
+ .plan-box ul li{
+ 
+  padding: 5px 0;
+ 
+  font-weight: 300;
+ 
+ }
+ 
+ .plan-box ul li ion-icon{
+ 
+  font-size: small;
+ 
+  margin-right: 10px;
+ 
+  color: #0984e3;
+ 
+ }
+ 
+ .plan-box div:first-child {
+ 
+  background-color: #dae2e4;
+ 
+  border-bottom-left-radius: 5px;
+ 
+  border-top-right-radius: 5px;
+ 
+ }
+ 
+ .plan-box div:last-child {
+ 
+  text-align: center;
+ 
+  border: 0;
+ 
+ }
+
+ /*----------------------------------------contact info------------------------------------------------------*/
+
+ .contact-form {
+
+  width: 55%;
+ 
+  margin: 0 auto;
+ 
+ }
+ 
+ input[type="text"],
+ 
+ input[type="email"],
+ 
+ select,
+ 
+ textarea {
+ 
+  width: 100%;
+ 
+  padding: 7px;
+ 
+  border-radius: 4px;
+ 
+  border: 1px solid #ccc;
+ 
+  font-weight: 300;
+ 
+ }
+ 
+ textarea {
+ 
+  height: 100px;
+ 
+ }
+ 
+ input[type="checkbox"] {
+ 
+  margin: 10px 5px 10px 0;
+ 
+ }
+ 
+ *:focus {
+ 
+  outline: none;
+ 
+ }
+ 
+ form label {
+ 
+  font-weight: 300;
+ 
+ }
+ 
+ .submit{
+ 
+  border: 1px solid #ff0000;
+ 
+ }
+ 
+ .contact-form .row{
+ 
+  margin-bottom: 10px;
+ }
+
+ /*-----------------------------------------footer------------------------------------*/
+
+ footer ion-icon {
+
+  color: #555;
+ 
+  font-size: 190%;
+ 
+ }
+ 
+ footer {
+ 
+  background-color: #1e272e;
+ 
+  padding: 50px;
+ 
+ }
+
+ .footer-nav{
+  margin-bottom: 30px;
+  list-style: none;
+  float: left;
+ }
+
+ .social-links {
+
+  list-style: none;
+ 
+  float: right;
+ 
+ }
+ 
+ .footer-nav li,
+ 
+ .social-links li {
+ 
+  display: inline-block;
+ 
+  margin-right: 20px;
+ 
+ }
+ 
+ .footer-nav li a:link,
+ 
+ .footer-nav li a:visited,
+ 
+ .social-links li a:link,
+ 
+ .social-links li a:visited {
+ 
+  text-decoration: none;
+ 
+  border: none;
+ 
+  color: #555;
+ 
+ }
+ 
+ .footer-nav li a:hover,
+ 
+ .footer-nav li a:active,
+ 
+ .social-links li a ion-icon:hover,
+ 
+ .social-links li a ion-icon:active {
+ 
+  color: #ea2027;
+ 
+  transition: color 1.4s;
+ 
+ }
+ 
+ footer p {
+ 
+  color: #888;
+ 
+  text-align: center;
+ 
+  font-size: 80%;
+ 
+ }
+ 
+ .footer-nav li:last-child,
+ 
+ .social-links li:last-child {
+ 
+  margin-right: 0;
+ 
+ }
+
+
